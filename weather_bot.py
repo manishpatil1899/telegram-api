@@ -55,7 +55,7 @@ def send_welcome(message):
     '''
     returns a welcome message when the '/start' command is sent by the user
     '''
-    bot.send_message(message.chat.id, 'Hello Padwan, what do you want to search for?')
+    bot.send_message(message.chat.id, 'Hello User, what do you want to search for?')
 
 
 @bot.message_handler(commands=['weather'])
